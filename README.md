@@ -8,7 +8,6 @@ To run this, use the following:
 cd "Project Code"
 conda env create -f Sinesi_ICS_635_FP_Conda_Environment.yml
 conda activate bandgap-prediction
-
 python Final_Project_2.py
 ```
 
