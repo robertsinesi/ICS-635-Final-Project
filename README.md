@@ -17,7 +17,7 @@ The data was taken from Materials Project, an open-access database. There are 68
 The models considered for this project are:
 Random Forest
 XGBoost
-6 Neural Networks with varying architectures
+6 MLP Neural Networks with varying architectures
 An ensemble method that uses the three best performing models on the validation set
 ## Hyperparameter Optimization
 The hyperparameters for all models were optimized using a grid search approach.
@@ -25,6 +25,7 @@ The hyperparameters for all models were optimized using a grid search approach.
 ### Validation Set
 | Model | MAE | R<sup>2</sup> |
 | ------------- | ------------- | ------------- |
+| XGBoost | 0.38 | 0.86 |
 | XGBoost | 0.38 | 0.86 |
 | Random Forest | 0.41 | 0.84 |
 | Deep MLP | 0.42 | 0.83 |
@@ -36,7 +37,7 @@ The hyperparameters for all models were optimized using a grid search approach.
 ### Test Set
 | Model | MAE | R<sup>2</sup> |
 | ------------- | ------------- | ------------- |
-| XGBoost | 0.38 | 0.86 |
+| Ensemble | 0.38 | 0.86 |
 ## New Predictions
 | Formula | Predicted Band Gap (eV) | Uncertainty |
 | ------------- | ------------- | ------------- |
