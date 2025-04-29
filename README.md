@@ -12,7 +12,7 @@ An ensemble method that uses the three best performing models on the validation 
 ## Hyperparameter Optimization
 The hyperparameters for all models were optimized using a grid search approach.
 ## Results
-| Model | MAE | R<sup>2<\sup> |
+| Model | MAE | R<sup>2</sup> |
 | ------------- | ------------- | ------------- |
 | XGBoost | 0.38 | 0.86 |
 | Random Forest | 0.41 | 0.84 |
