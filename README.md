@@ -25,24 +25,24 @@ The hyperparameters for all models were optimized using a grid search approach.
 ### Validation Set
 | Model | MAE | R<sup>2</sup> |
 | ------------- | ------------- | ------------- |
-| XGBoost | 0.38 | 0.86 |
-| XGBoost | 0.38 | 0.86 |
-| Random Forest | 0.41 | 0.84 |
-| Deep MLP | 0.42 | 0.83 |
-| Schindler MLP | 0.45 | 0.82 |
-| Very Deep MLP | 0.51 | 0.78 |
-| Wide MLP | 0.51 | 0.78 |
-| Baseline | 0.52 | 0.78 |
-| Shallow MLP | 0.52 | 0.78 |
+| Ensemble | 0.37 | 0.86 |
+| Schindler MLP | 0.38 | 0.84 |
+| XGBoost | 0.39 | 0.85 |
+| Very Deep MLP | 0.43 | 0.82 |
+| Random Forest | 0.43 | 0.83 |
+| Shallow MLP | 0.47 | 0.80 |
+| Wide MLP | 0.47 | 0.81 |
+| Deep MLP | 0.50 | 0.76 |
+| Baseline | 0.52 | 0.73 |
 ### Test Set
 | Model | MAE | R<sup>2</sup> |
 | ------------- | ------------- | ------------- |
-| Ensemble | 0.38 | 0.86 |
+| Ensemble | 0.37 | 0.86 |
 ## New Predictions
 | Formula | Predicted Band Gap (eV) | Uncertainty |
 | ------------- | ------------- | ------------- |
-| XGBoost | 0.38 | 0.86 |
-| Random Forest | 0.41 | 0.84 |
-| Deep MLP | 0.42 | 0.83 |
-| Schindler MLP | 0.45 | 0.82 |
-| Very Deep MLP | 0.51 | 0.78 |
+| GaSiS2 | 2.86 | 0.31 |
+| GaSiSe2 | 2.47 | 0.76 |
+| ZnGeSe2 | 2.20 | 1.39 |
+| ZnSiSe2 | 2.97 | 0.21 |
+| CdSiO2 | 3.02 | 0.13 |
